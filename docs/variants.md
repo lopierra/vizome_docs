@@ -1,6 +1,6 @@
 # [Variant Filters and Search](http://www.vizome.org/aml/variant_filter/)
 
-## ![](images/variants.png)
+## ![](img/variants.png)
 
 See the Vizome [help page](http://www.vizome.org/aml/about_variant_filters/) for instructions and examples.
 
@@ -39,7 +39,7 @@ Variant types can be included or excluded with the checkboxes shown. Each varian
 #### Presence in samples/databases
 Variants found in more than a given percentage of ExAC samples or OHSU AML normals can be filtered out by setting this global filter. In the AML database, variants have already been filtered to keep only those with ExAC < 1%. Variants found in dbSNP can also be filtered out. You may opt to still include variants found in COSMIC, even if they are found in dbSNP or a given percentage of ExAC samples or OHSU AML normals. This filter affects the data shown in all views that display and/or export variants.
 
-## ![](images/variants_popfreq.png) [Population Frequency View](http://www.vizome.org/aml/freq_summary/)
+## ![](img/variants_popfreq.png) [Population Frequency View](http://www.vizome.org/aml/freq_summary/)
 
 ### Data
 This view displays a summary of unique variants grouped by population frequency.
