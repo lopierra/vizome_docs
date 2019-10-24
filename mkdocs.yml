@@ -2,16 +2,18 @@ site_name: A Brief Guide to Vizome
 theme: readthedocs
 pages:
 - Home: index.md
-- 1. Sample attributes view: samples.md
-- 2. Variant filters and search: variants.md
-- 3. Gene sets: gene_sets.md
-- 4. Mosaic view: mosaic.md
-- 5. Individual view: individual.md
-- 6. Compare gene variants view: compare.md
-- 7. Expression stratification view: expression.md
-- 8. Chronology view: chronology.md
-- 9. Individual gene model view: individual.md
-- 10. Protein view: protein.md
-- 11. Inhibitor view: inhibitor.md
-- 12. HitWalker: hitwalker.md
-- Contributors: contributors.md
+- Modules:
+  - 1. Sample attributes view: samples.md
+  - 2. Variant filters and search: variants.md
+  - 3. Gene sets: gene_sets.md
+  - 4. Mosaic view: mosaic.md
+  - 5. Individual view: individual.md
+  - 6. Compare gene variants view: compare.md
+  - 7. Expression stratification view: expression.md
+  - 8. Chronology view: chronology.md
+  - 9. Individual gene model view: individual.md
+  - 10. Protein view: protein.md
+  - 11. Inhibitor view: inhibitor.md
+  - 12. HitWalker: hitwalker.md
+- About:
+  - Contributors: contributors.md
