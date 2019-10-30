@@ -8,6 +8,8 @@ The two datasets currently available in Vizome are [Beat AML](http://vizome.org/
 
 THe links in this documentation point to the Beat AML Vizome, but the information is similar for Crenolanib.
 
+Much of this documentation can also be found in Vizome by clicking the ![info_button](img/info_button.png) button on each page.
+
 ## Summary of Modules in Vizome
 
 ### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](http://www.vizome.org/aml/)

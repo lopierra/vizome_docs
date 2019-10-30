@@ -2,7 +2,7 @@
 
 ## ![variants](img/variants.png)
 
-See the Vizome [help page](http://www.vizome.org/aml/about_variant_filters/) for instructions and examples.
+See the Vizome [help page on variant filters](http://www.vizome.org/aml/about_variant_filters/) for instructions and examples.
 
 ### Data
 This page presents options for defining global filters based on variant properties such as number of reads and frequency in the population.

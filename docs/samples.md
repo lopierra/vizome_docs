@@ -2,9 +2,9 @@
 
 This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
-See the Vizome [help page](http://www.vizome.org/aml/about_sample_filters/) for instructions and examples.
+See the Vizome [help page on sample filters](http://www.vizome.org/aml/about_sample_filters/) for instructions and examples.
 
-## ![](img/samples_bar.png) Bar Charts
+## ![samples_bar](img/samples_bar.png) Bar Charts
 
 ### Data
 This view displays sample attribute data (also referred to as clinical data).
@@ -27,7 +27,7 @@ After saving one group, you will have the option to repeat the steps to save ano
 
 A global sample group filter set here will replace one set in other panels.
 
-## ![](img/samples_scatter.png) Scatterplot
+## ![samples_scatter](img/samples_scatter.png) Scatterplot
 
 ### Data
 This view displays sample attribute data (also referred to as clinical data).
@@ -42,7 +42,7 @@ Control samples can be omitted by checking the "Omit control samples" checkbox.
 
 Clicking "Swap axes" will tranpose the plot.
 
-## ![](img/samples_serial.png) Serial
+## ![samples_serial](img/samples_serial.png) Serial
 
 ### Data
 This view displays sample attribute data (also referred to as clinical data) sorted by sample date for each patient.
