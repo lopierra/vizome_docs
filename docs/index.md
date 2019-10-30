@@ -20,6 +20,11 @@ This view provides several methods to define a global filter that will limit bro
 
 This page presents options for defining global filters based on variant properties, as well as options for searching for variants.
 
-### ![genesets_main](img/genesets_main.png) 3. [Gene Sets](http://vizome.org/aml/geneset/)
+### ![genesets_main](img/genesets_main.png) 3. [Gene sets](http://vizome.org/aml/geneset/)
 
 This view allows you to define a set of genes, or to select a pre-defined set, which you may then explore in a variety of ways.
+
+### ![mosaic](img/mosaic.png) 4. [Mosaic view](http://vizome.org/aml/mosaic/)
+
+This view displays data related to samples, including clinical and variant, and fusion data (if applicable).
+
