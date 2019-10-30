@@ -29,7 +29,7 @@ It also displays gene frequencies, calculated as the number of samples with a va
 
 If a global sample filter is active, it also displays group comparisons.
 
-Global filters affect this view. Any sample-based filters set here and/or variant filters set here determine what variants appear in this view. If no global filters are set, all are shown.
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) and/or variant filters set [here](http://vizome.org/aml/variant_filter/) determine what variants appear in this view. If no global filters are set, all are shown.
 
 ### Visuals
 Each unique DNA variant within the selected genes is plotted with cohort frequency on the y-axis and gene name on the x-axis. Variants are color-coded by type.
@@ -50,3 +50,98 @@ Clicking on a gene name will bring up a set of options for that gene: View gene 
 Clicking the "Edit gene set" button ![genesets_editgeneset_button](img/genesets_editgeneset_button.png) will allow you to edit the gene list in a new window.
 
 Clicking export buttons ![genesets_export_button](img/genesets_export_button.jpg) will prepare a CSV of the corresponding variants for all listed genes.
+
+## ![genesets_interactions](img/genesets_interactions.png) [Gene Set Interactions/Pathways View](http://vizome.org/aml/related/)
+
+### Data
+This view first displays interactions, as defined by gene interaction data derived from [Pathway Commons](http://www.pathwaycommons.org/). Interactions in this view have been limited to those between members of a pathway, and to three interaction types: "controls state change," "controls expression," and "interacts."
+
+The presence of variants in the interacting genes can be indicated in this view.
+
+If a subset of interacting genes are selected, pathway names and a count of their gene members can be displayed, as well as a heatmap of expression.
+
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) and/or variant filters set [here](http://vizome.org/aml/variant_filter/) determine what variants appear in this view. If no global filters are set, all are shown.
+
+### Visuals
+In the "String view" plot, genes are sorted into groups: those that control other genes, those that are both controlled by and control other genes, and those that are controlled by other genes. These three groups are arranged on axes from left to right, with the direction of control pointing right.
+
+On the middle axis, interaction lines end in arrows to indicate direction of control.
+
+Interactions are color-coded by type.
+
+A black circle underneath the gene name indicates the presence of variants when "Show variants" is checked.
+
+### User interactions
+Each type of interaction can be shown/hidden with the checkboxes in the string plot.
+
+Variants in a gene can be shown/hidden with the "Show variants" checkbox.
+
+Clicking on a gene name will hide interactions not involving that gene.
+
+Click "Show all interactions" to restore hidden interactions.
+
+#### Selected genes
+This view supports the creation of a set of selected genes, and you can select a gene in three ways: 1) Clicking on its gene name in the string plot, 2) Selecting it from the drop-down menu under the string plot, or 3) Clicking "Select all." Selected genes appear below the string plot.
+
+Clicking on a gene name in the selected genes list will display a set of links for that gene: View gene model, View interactions, View chronology, and Go to GeneCards.
+
+Genes can be removed from the selected genes list by clicking the "x" after their names, or you may remove all of them by clicking "Clear list."
+
+When a set of genes (or a single gene) has been selected, a heatmap of RNA-Seq expression will also be generated below the string plot.
+
+Clicking the "Create gene set" button will take you to the gene set page, which will be populated with the list of currently selected genes.
+
+#### Pathways
+Every time a gene is added to or removed from the selected genes list, Vizome checks to see if any pathways contain all of the selected genes. If so, a list of those pathways will appear on the top right.
+
+Clicking on the small green arrow at the end of the pathway name will export a list of that pathway's gene members with a count of samples with variants per gene.
+
+Clicking on the pathway name itself will open a pathway view in a new window.
+
+## ![genesets_chron](img/genesets_chron.png) [Gene Set Chronology View](http://vizome.org/aml/chronology_set/)
+
+### Data
+This view displays DNA variants for a set of genes, sorted by sample date for each patient.
+
+Sample attributes can be shown by making selections in the "Sample attributes" drop-down menu.
+
+Fusions for the current gene can be shown.
+
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) and/or variant filters set [here](http://vizome.org/aml/variant_filter/) determine what patients and variants appear in this view. If no global filters are set, all are shown.
+
+### Visuals
+If a global sample group comparison is active, the patient IDs are color-coded by group.
+
+Each patient has one row, and for each sample they have, a light gray box appears in the "Timepoint" columns. The box represents the length of the gene. If that sample contains a variant in this gene, a black rectangle appears at the variant's position in the gene.
+
+When fusions are shown, dotted magenta lines appear at their positions in the gene.
+
+When sample attributes are selected via the drop-down menu at right, the light gray "Timepoint" boxes will be color-coded according to the chosen attribute.
+
+Every five seconds, the view will advance to the next gene in the list.
+
+### User interactions
+The ![genesets_chron_genecards](img/genesets_chron_genecards.jpg) icon after the gene name at the top of the page links to the GeneCards entry for this gene.
+
+Auto-advancing through genes can be paused by clicking the pause button ![genesets_chron_pause](img/genesets_chron_pause.png) and started again by clicking the play button ![genesets_chron_play](img/genesets_chron_play.png).
+
+Gene names in the list at left can be clicked to view them in any order, and doing so will pause auto-advancing.
+
+Mousing over a "Timepoint" box will also pause auto-advancing, and will open a zoomed-in view of that timepoint. Variants in the zoomed-in view are color-coded according to type, and mousing over them hides other variants while keeping that particular variant displayed in all other patients.
+
+Clicking the "Show fusions" button at right will reveal fusions, if any are present in the gene.
+
+Clicking on a variant or fusion in the zoomed-in view will replace this view with the individual-based gene model view.
+
+Clicking on the small green arrow above a single variant in the zoomed-in view will export CSV data for samples with that particular variant.
+
+Variant types can be toggled on/off with the checkboxes at right.
+
+Sample attributes can be chosen from the drop-down menu at right, and the "Timepoint" boxes will be color-coded accordingly.
+
+Clicking the export button ![genesets_export_button](img/genesets_export_button.jpg) will prepare a CSV of the variants for this gene.
+
+Clicking on the "Export summary" button under the gene list at left will export a CSV summary with all genes in the set as columns, patients as rows which are grouped by timepoint, a count of the total variants per row, and the ref/alt alleles for each variant.
+
+
+
