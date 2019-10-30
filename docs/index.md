@@ -12,19 +12,23 @@ Much of this documentation can also be accessed in Vizome by clicking the ![info
 
 ## Summary of Modules in Vizome
 
-### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](http://www.vizome.org/aml/)
+### <img align="left" src="img/samples_bar.png")
+1. [Sample attributes view](http://www.vizome.org/aml/)
+This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
+### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](http://www.vizome.org/aml/)
 This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
 ### ![variants](img/variants.png) 2. [Variant filters and search](http://www.vizome.org/aml/variant_filter/)
-
 This page presents options for defining global filters based on variant properties, as well as options for searching for variants.
 
 ### ![genesets_main](img/genesets_main.png) 3. [Gene sets](http://vizome.org/aml/geneset/)
-
 This view allows you to define a set of genes, or to select a pre-defined set, which you may then explore in a variety of ways.
 
 ### ![mosaic](img/mosaic.png) 4. [Mosaic view](http://vizome.org/aml/mosaic/)
-
 This view displays data related to samples, including clinical and variant, and fusion data (if applicable).
+
+### ![compare](img/compare.png) 4. [Compare gene variants view](http://vizome.org/aml/compare_genes/)
+This view allows you to compare a set of genes selected via DNA variants found in either individual samples or groups of samples.
+
 
