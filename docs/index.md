@@ -12,7 +12,7 @@ Much of this documentation can also be accessed in Vizome by clicking the ![info
 
 ## Summary of Modules in Vizome
 
-### <img align="left" src="img/samples_bar.png")
+### <img align="left" src="img/samples_bar.png">
 1. [Sample attributes view](http://www.vizome.org/aml/)
 This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
@@ -28,7 +28,8 @@ This view allows you to define a set of genes, or to select a pre-defined set, w
 ### ![mosaic](img/mosaic.png) 4. [Mosaic view](http://vizome.org/aml/mosaic/)
 This view displays data related to samples, including clinical and variant, and fusion data (if applicable).
 
-### ![compare](img/compare.png) 4. [Compare gene variants view](http://vizome.org/aml/compare_genes/)
+### ![compare](img/compare.png) X. [Compare gene variants view](http://vizome.org/aml/compare_genes/)
 This view allows you to compare a set of genes selected via DNA variants found in either individual samples or groups of samples.
 
-
+### ![hitwalker](img/hitwalker.png) X. [HitWalker](http://vizome.org/aml/hitwalker/)
+This view provides an interface to the [HitWalker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570211/) program which ranks genes containing variants with respect to functional data or supplied gene sets.
