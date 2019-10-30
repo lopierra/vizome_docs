@@ -2,7 +2,7 @@
 
 ## ![genesets_main](img/genesets_main.png)
 
-### Data
+<h3>Data</h3>
 This view allows you to define a set of genes, or to select a pre-defined set, which you may then explore in a variety of ways.
 
 Global filters do not affect this view, and this view does not set any global filters.
@@ -143,5 +143,29 @@ Clicking the export button ![genesets_export_button](img/genesets_export_button.
 
 Clicking on the "Export summary" button under the gene list at left will export a CSV summary with all genes in the set as columns, patients as rows which are grouped by timepoint, a count of the total variants per row, and the ref/alt alleles for each variant.
 
+## ![genesets_networks](img/genesets_networks.png) [Gene Set Networks View](http://vizome.org/aml/network_expression/)
 
+### Data
+This view initially displays undirected [Pathway Commons](http://www.pathwaycommons.org/) interactions among the genes in the set passed in.
 
+It can display a heatmap of expression for any genes in the set, as well as for genes found in downstream interactions for one particular gene.
+
+When looking for downstream interactions, the type of Pathway Commons interactions can be any or all of the following: "controls expression of," "controls state change of," "catalysis precedes," "controls phosphorylation of," or "controls transport of."
+
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) and/or variant filters set [here](http://vizome.org/aml/variant_filter/) determine what variants can be overlaid on the main heatmap plot.
+
+### Visuals
+In the network plot, genes are shown as circles, with undirected interactions as lines connecting them. If a gene is in the original set of genes passed in to this view, it will appear as a colored circle with a label. If a gene was not in the original set, it appears as a gray, unlabeled circle.
+
+The heatmaps show clustered genes and samples, with cells in the matrix color-coded by expression.
+
+### User interactions
+The list of genes at top left offers options to add and remove genes from both the network and expression plots. You can also select/de-select all genes using the checkboxes at top.
+
+If a small number of genes are selected for the network plot and there are not many interactions among them, the "Expand network" option may become active. Click on that link to broaden the search for interactions by looking one level out from the selected genes.
+
+Mousing over a gray, unlabeled circle in the network plot will display the gene name.
+
+Clicking on a gene name in the list opens a dialog box with options for retrieving downstream expression. Select which interaction types to include, and then click "Submit." If downstream genes are found, and they number less than 500, a downstream expression heatmap will appear below.
+
+Click and drag over an area in a heatmap to reveal samples and genes in that area. You can also download the data just from that area.
