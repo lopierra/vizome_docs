@@ -6,7 +6,7 @@ Vizome is an interactive, context-aware knowledge discovery platform created by 
 
 The two datasets currently available in Vizome are [Beat AML](http://vizome.org/aml/) ([Tyner et al., *Nature* 2018](https://www.nature.com/articles/s41586-018-0623-z)) and [Crenolanib](http://vizome.org/crenolanib/) ([Zhang et al., *Nat Commun.* 2019](https://www.nature.com/articles/s41467-018-08263-x)). 
 
-THe links in this documentation point to the Beat AML Vizome, but the information is similar for Crenolanib.
+The links in this documentation point to the Beat AML Vizome, but the information is similar for Crenolanib.
 
 Much of this documentation can also be found in Vizome by clicking the ![info_button](img/info_button.jpg) button on each page.
 
