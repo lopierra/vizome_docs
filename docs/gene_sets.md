@@ -198,7 +198,7 @@ Genes are ranked by the variance of the resulting values for expression across s
 
 Clinical data can be added as the first rows of the plot.
 
-Global sample-based filters affect this view. Any sample-based filters set here determine what samples (and therefore what genes) are included in this view. If no sample-based global filters are set, all are shown.
+Global sample-based filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) determine what samples (and therefore what genes) are included in this view. If no sample-based global filters are set, all are shown.
 
 Note: if a global sample group comparison is active, the groups are annotated in the expression results, but the results are not clustered according to the groups.
 
