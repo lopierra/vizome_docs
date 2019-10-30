@@ -2,7 +2,7 @@
 
 ## ![genesets_main](img/genesets_main.png)
 
-<h3>Data</h3>
+### Data
 This view allows you to define a set of genes, or to select a pre-defined set, which you may then explore in a variety of ways.
 
 Global filters do not affect this view, and this view does not set any global filters.
