@@ -169,3 +169,48 @@ Mousing over a gray, unlabeled circle in the network plot will display the gene 
 Clicking on a gene name in the list opens a dialog box with options for retrieving downstream expression. Select which interaction types to include, and then click "Submit." If downstream genes are found, and they number less than 500, a downstream expression heatmap will appear below.
 
 Click and drag over an area in a heatmap to reveal samples and genes in that area. You can also download the data just from that area.
+
+## ![genesets_fusions](img/genesets_fusions.png) [Gene Set Fusions View](http://vizome.org/aml/fusions/)
+
+### Data
+This view displays fusions identified by the TopHat-Fusion algorithm.
+
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) determine what fusions appear in this view. If no sample-based filters are set, all fusions are shown.
+
+### Visuals
+The color of a fusion line corresponds to the chromosome its left gene is on.
+
+The width of a fusion line corresponds to the number of samples containing that fusion.
+
+### User interactions
+Mousing over a fusion line displays information about it: the left and right genes, a colored line corresponding to the left gene chromosome, and the total number of samples with that fusion.
+
+Clicking on a fusion will open a new window with either a split-view of the left and right genes, or a single gene model view if the left and right genes are on the same chromosome and close enough together.
+
+Clicking the export button ![genesets_export_button](img/genesets_export_button.jpg) will prepare a CSV of the fusion data currently displayed.
+
+## ![genesets_highvariance](img/genesets_highvariance.png) [Gene Set High-Variance Expression View](http://vizome.org/aml/expression_variance/)
+
+### Data
+The data was collated from featureCounts matrices derived from the subjunc alignments and all genes with no counts across the samples were excluded. Genes with duplicate gene symbols and those where the counts were < 10 for 90% or more of the samples were additionally removed prior to normalization. Samples for which their median expression was less than 2 standard deviations below the average were removed from the dataset (N=10). Normalization was performed using the conditional quantile normalization procedure which produced GC-content corrected log2 reads per kilobase per million mapped reads (RPKM) values. Note batch correction was not performed at this time as the known technical variables clustered fairly randomly for both hierarchical clustering of the top 2,000 most variable genes as well as in an MDS plot of the top 500 genes.
+
+Genes are ranked by the variance of the resulting values for expression across samples. The top 1000 genes with highest variance are displayed in this view, clustered by gene and sample.
+
+Clinical data can be added as the first rows of the plot.
+
+Global sample-based filters affect this view. Any sample-based filters set here determine what samples (and therefore what genes) are included in this view. If no sample-based global filters are set, all are shown.
+
+Note: if a global sample group comparison is active, the groups are annotated in the expression results, but the results are not clustered according to the groups.
+
+### Visuals
+Expression values and clinical data are color-coded in tabular form.
+
+### User interactions
+Drag a clinical data category to the container at right to add it to the plot. You may also expand categories by clicking on the "+", which will then allow you to drag over single values.
+
+Clicking "Create plot" will initiate the ranking and clustering of genes and samples.
+
+After the plot appears, click and drag over an area to display the genes and samples within. This will also allow you to download data just for those genes and samples in the selected area.
+
+
+
