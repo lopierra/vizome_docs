@@ -12,22 +12,6 @@ Much of this documentation can also be accessed in Vizome by clicking the ![info
 
 ## Summary of Modules in Vizome
 
-<img src="img/samples_bar.png" align="left"> 
-&nbsp;1. [Sample attributes view](http://www.vizome.org/aml/)
-&nbsp;This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
-<br clear="left"/>
-
-
-<img src="img/samples_bar.png" align="left">
-
-&nbsp;1. [Sample attributes view](http://www.vizome.org/aml/)
-&nbsp;This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
-<br clear="left"/>
-
-<img src="img/samples_bar.png" align="left">&nbsp;1. [Sample attributes view](http://www.vizome.org/aml/)&nbsp;This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
-<br clear="left"/>
-
-
 ### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](http://www.vizome.org/aml/)
 This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
