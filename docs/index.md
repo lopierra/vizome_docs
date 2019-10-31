@@ -12,7 +12,7 @@ Much of this documentation can also be accessed in Vizome by clicking the ![info
 
 ## Summary of Modules in Vizome
 
-### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](http://www.vizome.org/aml/)
+### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](samples.md)
 This view provides several methods to define a global filter that will limit browsing in Vizome to a subset of samples.
 
 ### ![variants](img/variants.png) 2. [Variant filters and search](http://www.vizome.org/aml/variant_filter/)
