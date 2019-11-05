@@ -1,4 +1,4 @@
-site_name: A Brief Guide to Vizome
+site_name: Welcome to Vizome
 theme: mkdocs
 pages:
 - Home: index.md

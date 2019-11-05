@@ -1,4 +1,4 @@
-# A Brief Guide to [**Vizome**](http://www.vizome.org)
+# Welcome to [**Vizome**](http://www.vizome.org)
 
 ![vizome_main](img/vizome_main.png)
 
