@@ -33,5 +33,8 @@ This view allows you to compare a set of genes selected via DNA variants found i
 ### ![expression](img/expression.png) 7. [Expression stratification view](expression.md)
 This view displays RNA-Seq expression for a given gene and various sample attributes.
 
+### ![chronology](img/chronology.png) 8. [Chronology view](chronology.md)
+This view displays DNA variants for a given gene, sorted by sample date for each patient.
+
 ### ![hitwalker](img/hitwalker.png) 12. [HitWalker](hitwalker.md)
 This view provides an interface to the [HitWalker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570211/) program, which ranks genes containing variants with respect to functional data or supplied gene sets.
