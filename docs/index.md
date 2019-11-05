@@ -30,5 +30,8 @@ This view displays variants and inhibitor results for an individual, one patient
 ### ![compare](img/compare.png) 6. [Compare gene variants view](compare.md)
 This view allows you to compare a set of genes selected via DNA variants found in either individual samples or groups of samples.
 
+### ![expression](img/expression.png) 7. [Expression stratification view](expression.md)
+This view displays RNA-Seq expression for a given gene and various sample attributes.
+
 ### ![hitwalker](img/hitwalker.png) 12. [HitWalker](hitwalker.md)
 This view provides an interface to the [HitWalker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570211/) program, which ranks genes containing variants with respect to functional data or supplied gene sets.
