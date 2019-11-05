@@ -24,6 +24,9 @@ This view allows you to define a set of genes, or to select a pre-defined set, w
 ### ![mosaic](img/mosaic.png) 4. [Mosaic view](mosaic.md)
 This view displays data related to samples, including clinical and variant, and fusion data (if applicable).
 
+### ![individual](img/individual.png) 5. [Individual view](individual.md)
+This view displays variants and inhibitor results for an individual, one patient at a time.
+
 ### ![compare](img/compare.png) 6. [Compare gene variants view](compare.md)
 This view allows you to compare a set of genes selected via DNA variants found in either individual samples or groups of samples.
 
