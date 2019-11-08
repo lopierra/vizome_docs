@@ -36,5 +36,8 @@ This view displays RNA-Seq expression for a given gene and various sample attrib
 ### ![chronology](img/chronology.png) 8. [Chronology view](chronology.md)
 This view displays DNA variants for a given gene, sorted by sample date for each patient.
 
+### ![genemodel](img/genemodel.png) 9. [Gene model view](gene_model.md)
+This view displays gene models, variants, DNA coverage, miRNA, CTCF, target regions, DNase, H3K27ac, and, if applicable, RNA coverage, fusions, splicings, and a heatmap of RNA-Seq expression.
+
 ### ![hitwalker](img/hitwalker.png) 12. [HitWalker](hitwalker.md)
 This view provides an interface to the [HitWalker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570211/) program, which ranks genes containing variants with respect to functional data or supplied gene sets.
