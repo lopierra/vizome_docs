@@ -2,8 +2,6 @@ site_name: Welcome to Vizome
 theme: mkdocs
 pages:
 - Home: index.md
-- Tutorials: 
-  - Tutorials: tutorials.md
 - Modules:
   - 1. Sample attributes view: samples.md
   - 2. Variant filters and search: variants.md
@@ -17,5 +15,7 @@ pages:
   - 10. Protein view: protein.md
   - 11. Inhibitor view: inhibitor.md
   - 12. HitWalker: hitwalker.md
+- Tutorials: 
+  - Tutorials: tutorials.md
 - About:
   - Contributors: contributors.md
