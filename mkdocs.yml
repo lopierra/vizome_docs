@@ -13,7 +13,7 @@ pages:
   - 6. Compare gene variants view: compare.md
   - 7. Expression stratification view: expression.md
   - 8. Chronology view: chronology.md
-  - 9. Individual gene model view: individual.md
+  - 9. Gene model view: individual.md
   - 10. Protein view: protein.md
   - 11. Inhibitor view: inhibitor.md
   - 12. HitWalker: hitwalker.md
