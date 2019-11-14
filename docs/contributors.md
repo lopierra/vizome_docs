@@ -1,4 +1,4 @@
-# Contributors & Contact
+# Contributors & Contacts
 
 ## Original documentation
 
