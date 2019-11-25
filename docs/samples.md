@@ -4,7 +4,7 @@ This view provides several methods to define a global filter that will limit bro
 
 See the Vizome [help page on sample filters](http://www.vizome.org/aml/about_sample_filters/) for instructions and examples.
 
-Use the "Sample data" and "Patient data" tabs (lower box) to see sample- or patient-level clinical data and other information (e.g. correspondence between manuscript SampleID (BA####) and internal LLS_SampleID (XX-XXXX)). 
+Use the "Sample data" and "Patient data" tabs (lower box) to see sample- or patient-level clinical data and other information (e.g. correspondence between dbGaP/GDC SampleID (BA####) and internal LLS_SampleID (XX-XXXX)). 
 
 The "Data dictionary" link on the top right of the upper box brings up definitions for the clinical data.
 
