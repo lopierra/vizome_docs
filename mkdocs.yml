@@ -16,6 +16,7 @@ pages:
   - 11. Inhibitor view: inhibitor.md
   - 12. HitWalker: hitwalker.md
 - Tutorials: 
-  - Tutorials: tutorials.md
+  - Index: tutorials.md
+  - Individuals: tutorial_individual.md
 - About:
   - Contributors & Contacts: contributors.md
