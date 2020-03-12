@@ -10,6 +10,8 @@ The links in this documentation point to the Beat AML Vizome, but the informatio
 
 Much of this documentation can also be accessed in Vizome by clicking the ![info_button](img/info_button.jpg) button on each page.
 
+<br>
+
 ## Summary of Modules in Vizome
 
 ### ![samples_bar](img/samples_bar.png) 1. [Sample attributes view](samples.md)
@@ -47,3 +49,9 @@ Results from inhibitor testing, variant data, and normalized RNA-Seq expression 
 
 ### ![hitwalker](img/hitwalker.png) 12. [HitWalker](hitwalker.md)
 This view provides an interface to the [HitWalker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570211/) program, which ranks genes containing variants with respect to functional data or supplied gene sets.
+
+<br>
+
+## Getting Started
+
+See [tutorials](tutorials.md) page for instructions and examples.
