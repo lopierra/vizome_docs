@@ -185,9 +185,46 @@ The width of a fusion line corresponds to the number of samples containing that 
 ### User interactions
 Mousing over a fusion line displays information about it: the left and right genes, a colored line corresponding to the left gene chromosome, and the total number of samples with that fusion.
 
-Clicking on a fusion will open a new window with either a split-view of the left and right genes, or a single gene model view if the left and right genes are on the same chromosome and close enough together.
+Clicking on a fusion will open a new window with either a split-view of the left and right genes, or a single gene model view if the left and right genes are on the same chromosome and close enough together. See *Fusion Gene Model View* below.
 
 Clicking the export button ![genesets_export_button](img/genesets_export_button.jpg) will prepare a CSV of the fusion data currently displayed.
+
+## ![genesets_fusion_genemodel](img/genesets_fusion_genemodel.png) Fusion Gene Model View
+
+Clicking on a fusion in the [Gene Set Fusions View](http://vizome.org/aml/fusions/) will open a new window with either a split-view of the left and right genes, or a single gene model view if the left and right genes are on the same chromosome and close enough together.
+
+### Data
+This view displays two sets of data side by side, one for the left gene in a fusion, and one for the right gene. The two sets of data include gene models, variants, DNA and RNA coverage, fusions, splicings, miRNA, CTCF, Nextera target regions, DNase, and H3K27ac.
+
+Global filters affect this view. Any sample-based filters set [here](http://vizome.org/aml/) and/or variant filters set [here](http://vizome.org/aml/variant_filter/) determine what variants, coverage, fusions, and splicings appear in this view. If no global filters are set, all are shown.
+
+### Visuals
+Genomic backbone data and coverage appear in the top half of the plots. In the bottom half, variants, fusions, and splicings appear with exons, introns, and UTRs.
+
+Tumor only variants appear below the gene models and are labeled with an "T."
+
+Variants with an ExAC frequency > 0 are indicated with a *.
+
+The size of variant symbols corresponds to the number of currently selected samples containing that variant.
+
+Splicings appear as turquoise arcs, and the width of an arc corresponds to depth.
+
+Fusions appear as dotted magenta lines. They also appear as solid magenta lines on the small gray genome wheel at top left.
+
+### User interactions
+All data types can be toggled on/off via the checkboxes in either the "Data" or "Genomic backbone" panels at the top of the page.
+
+Mousing over a gene model displays the gene name.
+
+Mousing over a fusion line displays the left and right genes and their chromosomes.
+
+Mousing over a splicing arc displays junction ID, position, depth, and flanking widths.
+
+Mousing over a tumor only variant displays variant type, ref, alt, chromosome, start, end, count of tumor only samples with that variant, frequency across tumor only samples, and frequency in OHSU AML normals.
+
+Clicking on a variant symbol opens a dialog with more viewing options.
+
+Patient data can be added to or removed from the plot at any time via the selection box at the left. All patient IDs are contained in that selection box, and you can start typing to narrow the choices.
 
 ## ![genesets_highvariance](img/genesets_highvariance.png) [Gene Set High-Variance Expression View](http://vizome.org/aml/expression_variance/)
 
