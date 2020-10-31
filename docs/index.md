@@ -4,9 +4,13 @@
 
 Vizome is an interactive, context-aware knowledge discovery platform created by Libbey White, Beth Wilmot, Dan Bottomly, and Shannon McWeeney at Oregon Health & Science University.
 
-The two datasets currently available in Vizome are [Beat AML](http://vizome.org/aml/) ([Tyner et al., *Nature* 2018](https://www.nature.com/articles/s41586-018-0623-z)) and [Crenolanib](http://vizome.org/crenolanib/) ([Zhang et al., *Nat Commun.* 2019](https://www.nature.com/articles/s41467-018-08263-x)). 
+There are three datasets currently available in Vizome:
 
-The links in this documentation point to the Beat AML Vizome, but the information is similar for Crenolanib.
+* [Beat AML](http://vizome.org/aml/) ([Tyner et al., *Nature* 2018](https://www.nature.com/articles/s41586-018-0623-z))
+* [Crenolanib](http://vizome.org/crenolanib/) ([Zhang et al., *Nat Commun.* 2019](https://www.nature.com/articles/s41467-018-08263-x))
+* [Chronic neutrophilic leukemia](http://vizome.org/cnl) ([Zhang et al., *Blood* 2019](https://ashpublications.org/blood/article/134/11/867/273877/Genomic-landscape-of-neutrophilic-leukemias-of)) 
+
+The links in this documentation point to the Beat AML Vizome, but the information is similar for the other two datasets.
 
 Much of this documentation can also be accessed in Vizome by clicking the ![info_button](img/info_button.jpg) button on each page.
 
