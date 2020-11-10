@@ -1,8 +1,8 @@
 # Welcome to the [**Vizome**](http://www.vizome.org) documentation
 
-URL: https://vizome.readthedocs.io/
+URL: [https://vizome.readthedocs.io/](https://vizome.readthedocs.io/)
 
-Source: https://github.com/ohsu-heme/vizome_docs
+Source: [https://github.com/ohsu-heme/vizome_docs](https://github.com/ohsu-heme/vizome_docs)
 
 ![vizome_main](img/vizome_main.png)
 
