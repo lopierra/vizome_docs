@@ -6,7 +6,7 @@ Much of this documentation is taken from the vizome.org website and was written 
 
 ## Read The Docs site
 
-This *Read The Docs* site was created and is maintained by [Pierrette Lo](https://github.com/lopierra).
+This *Read The Docs* site was created by [Pierrette Lo](https://github.com/lopierra).
 
 The tutorials were created by Cristina Tognon and Pierrette Lo.
 
